@@ -3,7 +3,7 @@
     id="projects"
     class="min-h-screen flex flex-col justify-center items-center px-6 bg-gray-900 text-white"
   >
-    <h2 class="text-4xl font-bold mb-8">{{ $t('projects') }}</h2>
+    <h2 class="text-4xl font-bold mb-8">{{ t('projects') }}</h2>
     <div class="grid md:grid-cols-3 gap-8 w-full max-w-6xl">
       <div
         v-for="(project, i) in projects"
@@ -28,6 +28,9 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { gsap } from "gsap";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 
 const projects = [
   {

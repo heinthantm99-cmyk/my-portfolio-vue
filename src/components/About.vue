@@ -16,8 +16,8 @@ import { useI18n } from "vue-i18n";
 
 const aboutRef = ref<HTMLElement | null>(null);
 const { t } = useI18n();
-const aboutText =
-  "John builds modern, interactive web interfaces using Vue, TypeScript, Tailwind, and other frontend technologies.";
+// const aboutText =
+//   "John builds modern, interactive web interfaces using Vue, TypeScript, Tailwind, and other frontend technologies.";
 
 onMounted(() => {
   if (aboutRef.value) {
