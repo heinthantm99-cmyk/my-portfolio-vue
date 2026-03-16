@@ -1,0 +1,16 @@
+{
+  "name": "John",
+  "description": "Welcome to my portfolio",
+  "about": "About Me",
+  "aboutText": "John builds modern, interactive web interfaces using Vue, TypeScript, Tailwind, and other frontend technologies.",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact",
+  "nav": {
+    "hero": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

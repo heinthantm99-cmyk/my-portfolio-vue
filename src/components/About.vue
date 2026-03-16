@@ -4,18 +4,20 @@
     ref="aboutRef"
     class="min-h-screen flex flex-col justify-center items-center px-6 bg-gray-900 text-white opacity-0"
   >
-    <h2 class="text-4xl font-bold mb-6">About</h2>
-    <p class="max-w-xl text-center opacity-80">{{ aboutText }}</p>
+    <h2 class="text-4xl font-bold mb-6">{{ t('about') }}</h2>
+    <p class="max-w-xl text-center opacity-80">{{ t('aboutText') }}</p>
   </section>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { gsap } from "gsap";
+import { useI18n } from "vue-i18n";
 
 const aboutRef = ref<HTMLElement | null>(null);
+const { t } = useI18n();
 const aboutText =
-  "CodeSculptor builds modern, interactive web interfaces using Vue, TypeScript, Tailwind, and GSAP animations.";
+  "John builds modern, interactive web interfaces using Vue, TypeScript, Tailwind, and other frontend technologies.";
 
 onMounted(() => {
   if (aboutRef.value) {

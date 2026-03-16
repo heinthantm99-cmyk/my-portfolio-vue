@@ -3,7 +3,7 @@
     id="projects"
     class="min-h-screen flex flex-col justify-center items-center px-6 bg-gray-900 text-white"
   >
-    <h2 class="text-4xl font-bold mb-8">Projects</h2>
+    <h2 class="text-4xl font-bold mb-8">{{ $t('projects') }}</h2>
     <div class="grid md:grid-cols-3 gap-8 w-full max-w-6xl">
       <div
         v-for="(project, i) in projects"
@@ -11,7 +11,15 @@
         class="project-card bg-gray-800 p-6 rounded-xl shadow-lg text-center opacity-0"
       >
         <h3 class="font-semibold text-xl mb-2">{{ project.title }}</h3>
-        <p class="opacity-80">{{ project.desc }}</p>
+        <p class="opacity-80 mb-4">{{ project.desc }}</p>
+        <a 
+          v-if="project.link" 
+          :href="project.link" 
+          target="_blank"
+          class="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3  rounded-lg font-medium transition"
+        >
+          Live Demo →
+        </a>
       </div>
     </div>
   </section>
@@ -22,9 +30,61 @@ import { onMounted } from "vue";
 import { gsap } from "gsap";
 
 const projects = [
-  { title: "Project One", desc: "Interactive Vue portfolio demo." },
-  { title: "Project Two", desc: "GSAP-powered card animations." },
-  { title: "Project Three", desc: "Responsive Tailwind UI showcase." },
+  {
+    title: "Project One Vue",
+    desc: "Interactive Vue portfolio demo.",
+    link: "https://google.com",
+  },
+  {
+    title: "Project Two React",
+    desc: "GSAP-powered card animations.",
+    link: "https://google.com",
+  },
+  {
+    title: "Project Three Next.js",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+   {
+    title: "Project Three Nuxt.js",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+    {
+    title: "Project Three React Native",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+   {
+    title: "Project Three Uniapp",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+  {
+    title: "Project Three Electron",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+  {
+    title: "Project Three Web3",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+   {
+    title: "Project Three LLMs",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+    {
+    title: "Project Three Vue Full Stack",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
+    {
+    title: "Project Three React Full stack",
+    desc: "Responsive Tailwind UI showcase.",
+    link: "https://google.com",
+  },
 ];
 
 onMounted(async () => {

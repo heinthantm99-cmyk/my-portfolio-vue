@@ -1,0 +1,16 @@
+{
+  "name": "阿福",
+  "description": "欢迎来到我的作品集",
+  "about": "关于我",
+  "aboutText": "阿福使用Vue、TypeScript、Tailwind和其他前端技术构建现代、交互式的Web界面。",
+  "skills": "技能",
+  "projects": "项目",
+  "contact": "联系我",
+  "nav": {
+    "hero": "首页",
+    "about": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "contact": "联系我"
+  }
+}

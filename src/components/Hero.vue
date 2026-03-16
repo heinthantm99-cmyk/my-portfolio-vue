@@ -5,10 +5,10 @@
   >
     <div ref="heroRef" class="space-y-6 text-center opacity-0">
       <h1 class="text-6xl font-extrabold">
-        <span class="text-green-400">CodeSculptor</span>
+        <span class="text-green-400">{{ t('name') }}</span>
       </h1>
       <p class="text-xl opacity-80">
-        Crafting interactive, modern web experiences with Vue & GSAP
+        {{ t('description') }}
       </p>
     </div>
   </section>
@@ -17,8 +17,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { gsap } from "gsap";
+import { useI18n } from 'vue-i18n'
 
 const heroRef = ref<HTMLElement | null>(null);
+const { t } = useI18n()
 
 onMounted(() => {
   if (heroRef.value) {

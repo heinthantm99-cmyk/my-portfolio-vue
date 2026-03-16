@@ -3,7 +3,7 @@
     id="skills"
     class="min-h-screen flex flex-col justify-center items-center px-6 bg-gray-800 text-white"
   >
-    <h2 class="text-4xl font-bold mb-6">Skills</h2>
+    <h2 class="text-4xl font-bold mb-6">{{ $t('skills') }}</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
       <div
         v-for="(skill, i) in skills"
@@ -20,7 +20,7 @@
 import { onMounted } from "vue";
 import { gsap } from "gsap";
 
-const skills = ["Vue 3", "TypeScript", "Tailwind CSS", "GSAP"];
+const skills = ["Vue 3", "TypeScript", "Tailwind CSS", "GSAP","React","Node.js","React Native","Uniapp","Next.js","Nuxt.js","Electron"];
 
 onMounted(() => {
   // Remove old inline styles first (if any)
