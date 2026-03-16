@@ -5,8 +5,9 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { createI18n } from 'vue-i18n'
 import NotyfPlugin from "./plugins/notyf";
 import "./style.css";
-import messages from '@intlify/unplugin-vue-i18n/messages' // 
-// Register GSAP plugin globally (only once)
+import en from './locales/en.json';
+import zh from './locales/zh.json';
+import my from './locales/my.json';// Register GSAP plugin globally (only once)
 gsap.registerPlugin(ScrollTrigger);
 
 // const messages = {
@@ -27,7 +28,11 @@ gsap.registerPlugin(ScrollTrigger);
 const i18n = createI18n({
   locale: 'en',        // default language
   fallbackLocale: 'en',
-  messages
+  messages: {
+    en: en,
+    zh: zh,
+    my: my
+  }
 })
 
 const app = createApp(App);
