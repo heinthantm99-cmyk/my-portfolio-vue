@@ -10,11 +10,20 @@ import "./style.css";
 // Register GSAP plugin globally (only once)
 gsap.registerPlugin(ScrollTrigger);
 
-const messages = {
- en: await import('./locales/en.json'),
-  zh: await import('./locales/zh.json'),
-  my: await import('./locales/my.json')
-}
+// const messages = {
+//  en: await import('./locales/en.json'),
+//   zh: await import('./locales/zh.json'),
+//   my: await import('./locales/my.json')
+// }
+
+const messages = Object.fromEntries(
+  Object.entries(
+    import.meta.glob('./locales/*.json', { eager: true })
+  ).map(([key, module]) => {
+    const lang = key.replace('./locales/', '').replace('.json', '')
+    return [lang, (module as any).default || module]
+  })
+)
 
 const i18n = createI18n({
   locale: 'en',        // default language
