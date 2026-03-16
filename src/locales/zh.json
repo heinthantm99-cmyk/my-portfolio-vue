@@ -6,11 +6,5 @@
   "skills": "技能",
   "projects": "项目",
   "contact": "联系我",
-  "nav": {
-    "hero": "首页",
-    "about": "关于我",
-    "skills": "技能",
-    "projects": "项目",
-    "contact": "联系我"
-  }
+  "hero": "首页"
 }

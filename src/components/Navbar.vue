@@ -11,7 +11,7 @@
         :href="`#${link.id}`"
         class="text-white hover:text-green-400 transition-colors font-medium shadow-inner"
       >
-        {{ t('nav.'+link.id) }}
+        {{ t(link.id) }}
       </a>
     </div>
 

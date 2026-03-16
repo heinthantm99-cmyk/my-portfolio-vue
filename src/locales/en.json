@@ -6,11 +6,5 @@
   "skills": "Skills",
   "projects": "Projects",
   "contact": "Contact",
-  "nav": {
-    "hero": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "contact": "Contact"
-  }
+  "hero": "Home"
 }
