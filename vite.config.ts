@@ -10,6 +10,13 @@ export default defineConfig({
      vueI18n({
       include: path.resolve(__dirname, './src/locales/**'),   // ← This is the important line
       runtimeOnly: false,
+      compositionOnly: true,
+      fullInstall: true
     }),
     tailwindcss()],
+    resolve: {
+    alias: {
+      'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-browser.js'
+    }
+  }
 })
