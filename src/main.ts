@@ -3,9 +3,6 @@ import App from "./App.vue";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { createI18n } from 'vue-i18n'
-import en from "./locales/en.json";
-import zh from './locales/zh.json';
-import my from './locales/my.json';
 
 import NotyfPlugin from "./plugins/notyf";
 import "./style.css";
@@ -14,9 +11,9 @@ import "./style.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const messages = {
-  en,
-  zh,
-  my
+ en: await import('./locales/en.json'),
+  zh: await import('./locales/zh.json'),
+  my: await import('./locales/my.json')
 }
 
 const i18n = createI18n({
