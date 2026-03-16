@@ -27,6 +27,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const i18n = createI18n({
   legacy:false,
+  globalInjection: true,
   locale: 'en',        // default language
   fallbackLocale: 'en',
   messages: {
