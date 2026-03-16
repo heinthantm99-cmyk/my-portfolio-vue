@@ -11,7 +11,7 @@
         :href="`#${link.id}`"
         class="text-white hover:text-green-400 transition-colors font-medium shadow-inner"
       >
-        {{ t(`nav.${link.id}`) }}
+        {{ t(link.label) }}
       </a>
     </div>
 
@@ -37,11 +37,11 @@ import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 
 const links = [
-  { id: "hero", label: "Home" },
-  { id: "about", label: "About" },
-  { id: "skills", label: "Skills" },
-  { id: "projects", label: "Projects" },
-  { id: "contact", label: "Contact" },
+  { id: "hero", label: "nav.hero" },
+  { id: "about", label: "nav.about" },
+  { id: "skills", label: "nav.skills" },
+  { id: "projects", label: "nav.projects" },
+  { id: "contact", label: "nav.contact" },
 ];
 
 const languages = [
