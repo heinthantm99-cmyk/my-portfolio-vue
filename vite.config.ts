@@ -9,10 +9,7 @@ export default defineConfig({
   plugins: [vue(),
      vueI18n({
       include: path.resolve(__dirname, './src/locales/**'),   // ← This is the important line
-      runtimeOnly: false,
-      compositionOnly: true,
       strictMessage: false,
-      fullInstall: true
     }),
     tailwindcss()],
     resolve: {
