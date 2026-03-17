@@ -18,7 +18,7 @@
           target="_blank"
           class="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3  rounded-lg font-medium transition"
         >
-          Live Demo →
+          {{t('live')}} →
         </a>
       </div>
     </div>
@@ -39,9 +39,9 @@ const projects = [
     link: "https://vue-admin-panel-ashy.vercel.app/#/",
   },
   {
-    title: "Project Two React",
-    desc: "GSAP-powered card animations.",
-    link: "https://google.com",
+    title: "projects_title2",
+    desc: "projects_desc2",
+    link: "https://react-crypto-dashboard-gilt.vercel.app/",
   },
   {
     title: "Project Three Next.js",

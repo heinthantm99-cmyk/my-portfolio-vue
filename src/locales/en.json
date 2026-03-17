@@ -8,5 +8,8 @@
   "contact": "Contact",
   "hero": "Home",
   "projects_title1": "Vue Admin Panel",
-  "projects_desc1": "This is a modern, responsive Admin Dashboard Template built with Vue 3 and Tailwind CSS"
+  "projects_desc1": "This is a modern, responsive Admin Dashboard Template built with Vue 3 and Tailwind CSS",
+  "projects_title2":"React Crypto-dashboard",
+  "projects_desc2":"A high-performance, modern cryptocurrency tracking application",
+  "live": "Live Demo"
 }

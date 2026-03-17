@@ -8,5 +8,8 @@
   "contact": "ဆက်သွယ်ရန်",
   "hero": "ပင်မစာမျက်နှာ",
   "projects_title1": "Vue အက်ဒမင် ပန်နယ်",
-  "projects_desc1": "ဒါက Vue 3 နဲ့ Tailwind CSS နဲ့ တည်ဆောက်ထားတဲ့ ခေတ်မီပြီး တုံ့ပြန်မှုကောင်းတဲ့ Admin Dashboard Template တစ်ခုပါ။"
+  "projects_desc1": "ဒါက Vue 3 နဲ့ Tailwind CSS နဲ့ တည်ဆောက်ထားတဲ့ ခေတ်မီပြီး တုံ့ပြန်မှုကောင်းတဲ့ Admin Dashboard Template တစ်ခုပါ။",
+  "projects_title2": "React ခရစ်ပတို စောင့်ကြည့် ဝက်ဆိုဒ်",
+  "projects_desc2": "စွမ်းဆောင်ရည်မြင့်၊ ခေတ်မီ cryptocurrency ခြေရာခံအပလီကေးရှင်း",
+  "live": "ကြည့်ရှုရန်"
 }

@@ -7,6 +7,10 @@
   "projects": "项目",
   "contact": "联系我",
   "hero": "首页",
-   "projects_title1": "Vue 管理员页面",
-  "projects_desc1": "这是一个使用 Vue 3 和 Tailwind CSS 构建的现代化响应式后台管理面板模板。"
+  "projects_title1": "Vue 管理员页面",
+  "projects_desc1": "这是一个使用 Vue 3 和 Tailwind CSS 构建的现代化响应式后台管理面板模板。",
+  "projects_title2": "React 加密货币仪表盘",
+  "projects_desc2": "一款高性能、现代化的加密货币追踪应用程序",
+  "live": "看看作品"
+
 }
