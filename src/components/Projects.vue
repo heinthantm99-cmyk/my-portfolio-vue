@@ -10,8 +10,8 @@
         :key="i"
         class="project-card bg-gray-800 p-6 rounded-xl shadow-lg text-center opacity-0"
       >
-        <h3 class="font-semibold text-xl mb-2">{{ project.title }}</h3>
-        <p class="opacity-80 mb-4">{{ project.desc }}</p>
+        <h3 class="font-semibold text-xl mb-2">{{ t(project.title) }}</h3>
+        <p class="opacity-80 mb-4">{{ t(project.desc) }}</p>
         <a 
           v-if="project.link" 
           :href="project.link" 
@@ -34,9 +34,9 @@ const { t } = useI18n();
 
 const projects = [
   {
-    title: "Project One Vue",
-    desc: "Interactive Vue portfolio demo.",
-    link: "https://google.com",
+    title: "projects_title1",
+    desc: "projects_desc1",
+    link: "https://vue-admin-panel-ashy.vercel.app/#/",
   },
   {
     title: "Project Two React",

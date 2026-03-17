@@ -6,5 +6,7 @@
   "skills": "ကျွမ်းကျင်မှုများ",
   "projects": "ပရောဂျက်များ",
   "contact": "ဆက်သွယ်ရန်",
-  "hero": "ပင်မစာမျက်နှာ"
+  "hero": "ပင်မစာမျက်နှာ",
+  "projects_title1": "Vue အက်ဒမင် ပန်နယ်",
+  "projects_desc1": "ဒါက Vue 3 နဲ့ Tailwind CSS နဲ့ တည်ဆောက်ထားတဲ့ ခေတ်မီပြီး တုံ့ပြန်မှုကောင်းတဲ့ Admin Dashboard Template တစ်ခုပါ။"
 }
