@@ -11,6 +11,10 @@
   "projects_desc1": "这是一个使用 Vue 3 和 Tailwind CSS 构建的现代化响应式后台管理面板模板。",
   "projects_title2": "React 加密货币仪表盘",
   "projects_desc2": "一款高性能、现代化的加密货币追踪应用程序",
+  "projects_title3": "Next.js AI聊天器",
+  "projects_desc3": "这是一个使用 Next.js 15 和 Vercel AI SDK 构建的高性能全栈 AI 聊天机器人。",
+  "projects_title4": "高性能 Nuxt 3 电影数据库",
+  "projects_desc4": "一款使用 Nuxt 3 和 Vue 3 构建的超快速、响应灵敏的电影发现应用程序。",
   "live": "看看作品"
 
 }

@@ -44,14 +44,14 @@ const projects = [
     link: "https://react-crypto-dashboard-gilt.vercel.app/",
   },
   {
-    title: "Project Three Next.js",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
+    title: "projects_title3",
+    desc: "projects_desc3",
+    link: "https://ai-chatbot-woad-seven-33.vercel.app/",
   },
    {
-    title: "Project Three Nuxt.js",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
+    title: "projects_title4",
+    desc: "projects_desc4",
+    link: "https://movie-nuxt-lime.vercel.app/",
   },
     {
     title: "Project Three React Native",

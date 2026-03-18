@@ -9,7 +9,11 @@
   "hero": "Home",
   "projects_title1": "Vue Admin Panel",
   "projects_desc1": "This is a modern, responsive Admin Dashboard Template built with Vue 3 and Tailwind CSS",
-  "projects_title2":"React Crypto-dashboard",
-  "projects_desc2":"A high-performance, modern cryptocurrency tracking application",
+  "projects_title2": "React Crypto-dashboard",
+  "projects_desc2": "A high-performance, modern cryptocurrency tracking application",
+  "projects_title3": "Next.js AI Chatbot",
+  "projects_desc3": "A high-performance, full-stack AI Chatbot built with Next.js 15 and the Vercel AI SDK",
+  "projects_title4": "A High-Performance Nuxt 3 Movie Database",
+  "projects_desc4": "An ultra-fast, responsive Movie Discovery application built with Nuxt 3 and Vue 3",
   "live": "Live Demo"
 }

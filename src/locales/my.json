@@ -11,5 +11,9 @@
   "projects_desc1": "ဒါက Vue 3 နဲ့ Tailwind CSS နဲ့ တည်ဆောက်ထားတဲ့ ခေတ်မီပြီး တုံ့ပြန်မှုကောင်းတဲ့ Admin Dashboard Template တစ်ခုပါ။",
   "projects_title2": "React ခရစ်ပတို စောင့်ကြည့် ဝက်ဆိုဒ်",
   "projects_desc2": "စွမ်းဆောင်ရည်မြင့်၊ ခေတ်မီ cryptocurrency ခြေရာခံအပလီကေးရှင်း",
+  "projects_title3": "Next.js AI Chatbot",
+  "projects_desc3": "Next.js 15 နှင့် Vercel AI SDK တို့ဖြင့် တည်ဆောက်ထားသော စွမ်းဆောင်ရည်မြင့်မားသော၊ full-stack AI Chatbot",
+  "projects_title4": "စွမ်းဆောင်ရည်မြင့် Nuxt 3 ရုပ်ရှင်ဒေတာဘေ့စ်",
+  "projects_desc4": "Nuxt 3 နှင့် Vue 3 ဖြင့်တည်ဆောက်ထားသော အလွန်မြန်ဆန်ပြီး တုံ့ပြန်မှုကောင်းသော Movie Discovery အပလီကေးရှင်းတစ်ခု",
   "live": "ကြည့်ရှုရန်"
 }
