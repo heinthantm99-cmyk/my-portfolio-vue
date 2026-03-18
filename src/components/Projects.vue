@@ -53,41 +53,7 @@ const projects = [
     desc: "projects_desc4",
     link: "https://movie-nuxt-lime.vercel.app/",
   },
-    {
-    title: "Project Three React Native",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-   {
-    title: "Project Three Uniapp",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-  {
-    title: "Project Three Electron",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-  {
-    title: "Project Three Web3",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-   {
-    title: "Project Three LLMs",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-    {
-    title: "Project Three Vue Full Stack",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
-    {
-    title: "Project Three React Full stack",
-    desc: "Responsive Tailwind UI showcase.",
-    link: "https://google.com",
-  },
+    
 ];
 
 onMounted(async () => {
