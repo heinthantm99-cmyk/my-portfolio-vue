@@ -24,7 +24,7 @@ import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
 
-const skills = ["Vue 3", "TypeScript", "Tailwind CSS", "GSAP","React","Node.js","React Native","Uniapp","Next.js","Nuxt.js","Electron","Others"];
+const skills = ["Vue 3", "TypeScript", "Tailwind CSS", "GSAP","React","Node.js","Next.js","Nuxt.js","Shadcn/UI","Others","Responsive Web Design","State Management","Data Fetching","API integration","Git"];
 
 onMounted(() => {
   // Remove old inline styles first (if any)
