@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-import i18n from '@/main' // ခင်ဗျားရဲ့ i18n instance ကို import လုပ်ပါ (လမ်းကြောင်း စစ်ပေးပါ)
 
 export const useAppStore = defineStore('app', {
   // 1. Data သိမ်းမယ့်နေရာ
