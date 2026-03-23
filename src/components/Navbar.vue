@@ -37,6 +37,7 @@ import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import { useAppStore } from '../stores/appStore'
 import { storeToRefs } from 'pinia' // ဒါလေးပါထည့်ပါ
+import { watch } from 'vue' // watch ကို import လုပ်ပါ
 
 const links = [
   { id: "hero", label: "nav.hero" },
@@ -65,6 +66,10 @@ const changeLanguage = (lang: string) => {
   // currentLang.value = lang;
   appStore.setLanguage(lang)
 };
+
+watch(currentLanguage, (newLang) => {
+  locale.value = newLang
+})
 
 onMounted(() => {
   const handleScroll = () => {
