@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import { createI18n } from 'vue-i18n'
 import NotyfPlugin from "./plugins/notyf";
 import "./style.css";
+import { createPinia } from "pinia";
 import en from './locales/en.json';
 import zh from './locales/zh.json';
 import my from './locales/my.json';// Register GSAP plugin globally (only once)
@@ -38,6 +39,9 @@ const i18n = createI18n({
 })
 
 const app = createApp(App);
+const pinia = createPinia()
+
 app.use(NotyfPlugin);
 app.use(i18n);
+app.use(pinia);
 app.mount("#app");

@@ -22,7 +22,7 @@
         :key="lang.code"
         @click="changeLanguage(lang.code)"
         :class="{
-          'bg-green-500 text-white shadow-md': currentLang === lang.code,
+          'bg-green-500 text-white shadow-md': currentLanguage === lang.code,
         }"
         class="px-4 py-2 text-sm font-medium rounded-md transition-all hover:bg-green-500/20"
       >
@@ -35,6 +35,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
+import { useAppStore } from '../stores/appStore'
+import { storeToRefs } from 'pinia' // ဒါလေးပါထည့်ပါ
 
 const links = [
   { id: "hero", label: "nav.hero" },
@@ -50,6 +52,8 @@ const languages = [
   { code: "my", label: "မြန်မာ" },
 ];
 
+const appStore = useAppStore()
+const { currentLanguage } = storeToRefs(appStore)
 const nav = ref<HTMLElement | null>(null);
 const { locale } = useI18n();
 const { t } = useI18n();
@@ -57,8 +61,9 @@ const currentLang = ref(locale.value);
 
 // ====================== LANGUAGE SWITCHER ======================
 const changeLanguage = (lang: string) => {
-  locale.value = lang;
-  currentLang.value = lang;
+  // locale.value = lang;
+  // currentLang.value = lang;
+  appStore.setLanguage(lang)
 };
 
 onMounted(() => {
