@@ -15,5 +15,7 @@
   "projects_desc3": "Next.js 15 နှင့် Vercel AI SDK တို့ဖြင့် တည်ဆောက်ထားသော စွမ်းဆောင်ရည်မြင့်မားသော၊ full-stack AI Chatbot",
   "projects_title4": "စွမ်းဆောင်ရည်မြင့် Nuxt 3 ရုပ်ရှင်ဒေတာဘေ့စ်",
   "projects_desc4": "Nuxt 3 နှင့် Vue 3 ဖြင့်တည်ဆောက်ထားသော အလွန်မြန်ဆန်ပြီး တုံ့ပြန်မှုကောင်းသော Movie Discovery အပလီကေးရှင်းတစ်ခု",
+   "projects_title5": "အချိန်နှင့်တပြေးညီ မိုးလေဝသဒိုင်ခွက်",
+  "projects_desc5": "React Native ဖြင့် တည်ဆောက်ထားသော စွမ်းဆောင်ရည်မြင့် Weather App ဖြစ်ပါသည်။",
   "live": "ကြည့်ရှုရန်"
 }

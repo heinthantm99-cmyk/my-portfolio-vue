@@ -15,5 +15,7 @@
   "projects_desc3": "A high-performance, full-stack AI Chatbot built with Next.js 15 and the Vercel AI SDK",
   "projects_title4": "A High-Performance Nuxt 3 Movie Database",
   "projects_desc4": "An ultra-fast, responsive Movie Discovery application built with Nuxt 3 and Vue 3",
+  "projects_title5": "Real-Time Weather Dashboard",
+  "projects_desc5": "A high-performance React Native Mobile application featuring real-time data fetching, clean component architecture",
   "live": "Live Demo"
 }

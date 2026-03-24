@@ -3,7 +3,7 @@
     id="projects"
     class="min-h-screen flex flex-col justify-center items-center px-6 bg-gray-900 text-white"
   >
-    <h2 class="text-4xl font-bold mb-8">{{ t('projects') }}</h2>
+    <h2 class="text-4xl font-bold mb-8">{{ t("projects") }}</h2>
     <div class="grid md:grid-cols-3 gap-8 w-full max-w-6xl">
       <div
         v-for="(project, i) in projects"
@@ -12,13 +12,13 @@
       >
         <h3 class="font-semibold text-xl mb-2">{{ t(project.title) }}</h3>
         <p class="opacity-80 mb-4">{{ t(project.desc) }}</p>
-        <a 
-          v-if="project.link" 
-          :href="project.link" 
+        <a
+          v-if="project.link"
+          :href="project.link"
           target="_blank"
-          class="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3  rounded-lg font-medium transition"
+          class="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition"
         >
-          {{t('live')}} →
+          {{ t("live") }} →
         </a>
       </div>
     </div>
@@ -48,12 +48,17 @@ const projects = [
     desc: "projects_desc3",
     link: "https://ai-chatbot-woad-seven-33.vercel.app/",
   },
-   {
+  {
     title: "projects_title4",
     desc: "projects_desc4",
     link: "https://movie-nuxt-lime.vercel.app/",
   },
-    
+
+  {
+    title: "projects_title5",
+    desc: "projects_desc5",
+    link: "https://wealther-mobile.vercel.app/",
+  },
 ];
 
 onMounted(async () => {

@@ -15,6 +15,8 @@
   "projects_desc3": "这是一个使用 Next.js 15 和 Vercel AI SDK 构建的高性能全栈 AI 聊天机器人。",
   "projects_title4": "高性能 Nuxt 3 电影数据库",
   "projects_desc4": "一款使用 Nuxt 3 和 Vue 3 构建的超快速、响应灵敏的电影发现应用程序。",
+  "projects_title5": "实时天气仪表盘",
+  "projects_desc5": "基于 React Native 手机版构建的高性能天气应用",
   "live": "看看作品"
 
 }
