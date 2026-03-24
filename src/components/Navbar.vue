@@ -58,7 +58,7 @@ const { currentLanguage } = storeToRefs(appStore)
 const nav = ref<HTMLElement | null>(null);
 const { locale } = useI18n();
 const { t } = useI18n();
-const currentLang = ref(locale.value);
+// const currentLang = ref(locale.value);
 
 // ====================== LANGUAGE SWITCHER ======================
 const changeLanguage = (lang: string) => {
